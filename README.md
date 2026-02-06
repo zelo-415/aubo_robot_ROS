@@ -1,7 +1,8 @@
 # AUBO Robot
 **Maintainer: chenshudong@aubo-robotics.cn**
 
-
+## Note:
+I (Zelo) have recorded the problems I encountered when set this up on Ubuntu 20.04.
 
 
 * Aubo_robot [ROS](http://www.ros.org/) meta-package for [ROS-Industrial](http://wiki.ros.org/Industrial). See the [ROS wiki](http://wiki.ros.org/)  page for more information.
@@ -15,7 +16,7 @@ For the latest features and developments you might want to install from source.<
 
 1. First set up a catkin workspace (see this [tutorials](http://wiki.ros.org/catkin/Tutorials)).<br>
 2. Then clone the repository into the `src/` folder. It should look like `/user_name/catkin_workspace/src/aubo_robot`.<br>
-3. In order to compile the package successfully, you need to install some packages related to `MoveIt` and `industrial_core`package.<br>
+3. In order to compile the package successfully, you need to install some packages related to `MoveIt` and `industrial_core`package.(I installed ros-noetic-rviz; visual packs: ros-noetic-moveit-visual-tools ros-noetic-rviz-visual-tools; ros-noetic-moveit; ros-noetic-industrial-core)<br> 
 4. Make sure to source the correct setup file according to your workspace hierarchy, then use **catkin_make** to compile.<br>
 
 5. update Moveit_core_lib : enter the direction `/user_name/catkin_workspace/src/aubo_robot/UpdateMoveitLib/Kinetic/`,Add permissions to the Update.sh file`chmod +x Update.sh` , Execution script file `sudo ./Update.sh`
