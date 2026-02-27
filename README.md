@@ -2,7 +2,7 @@
 **Original Maintainer: chenshudong@aubo-robotics.cn**
 
 ## Note:
-I have recorded the problems I encountered when set this up on Ubuntu 20.04. (For Ubuntu 20.04, I used [distrobox](https://github.com/89luca89/distrobox) so that I won't disturb my original system.)
+I have recorded the problems I encountered when set this up on Ubuntu 20.04. (For Ubuntu 20.04, I used [distrobox](https://github.com/89luca89/distrobox) so that it won't disturb my original system.)
 
 * This repository provides ROS support for [AUBO robots](https://aubo-robotics.com/en/).
 * This repository holds source code for 'Noetic'.
