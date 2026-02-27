@@ -15,7 +15,7 @@ For the latest features and developments you might want to install from source.<
 
 1. First set up a catkin workspace (see this [tutorials](http://wiki.ros.org/catkin/Tutorials)).<br>
 2. Then clone the repository into the `src/` folder. It should look like `/user_name/catkin_workspace/src/aubo_robot`.<br>
-3. In order to compile the package successfully, you need to install some packages related to `MoveIt` and `industrial_core`package.(I installed ros-noetic-rviz; visual packs: ros-noetic-moveit-visual-tools ros-noetic-rviz-visual-tools; ros-noetic-moveit; ros-noetic-industrial-core)<br> 
+3. In order to compile the package successfully, you need to install some packages related to `MoveIt` and `industrial_core`package.(I installed `ros-noetic-rviz`; visual packs: `ros-noetic-moveit-visual-tools` `ros-noetic-rviz-visual-tools`; `ros-noetic-moveit`; `ros-noetic-industrial-core`)<br> 
 4. Make sure to source the correct setup file according to your workspace hierarchy, then use **catkin_make** to compile.<br>
 _Note: when run this line, you probably will encounter a problem in Issure#3 in the original repo._ 
 
@@ -25,7 +25,7 @@ _Note: when run this line, you probably will encounter a problem in Issure#3 in 
 
 ### Contents
 ----
-Whenever you start the system, remember to first source the setup.bash under /opt/ and then source the setup.bash under your catkin directory (if you have run catkin_make before, there will be a setup.bash under /devel/). 
+Whenever you start the system, remember to first source the setup.bash under `/opt/` and then source the `setup.bash` under your catkin directory (if you have run `catkin_make` before, there will be a `setup.bash` under `/devel/`). 
 
 ### MoveIt! with a simulated robot
 ---
