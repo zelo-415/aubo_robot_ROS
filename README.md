@@ -1,13 +1,12 @@
 # AUBO Robot
-**Maintainer: chenshudong@aubo-robotics.cn**
+**Original Maintainer: chenshudong@aubo-robotics.cn**
 
 ## Note:
-I (Zelo) have recorded the problems I encountered when set this up on Ubuntu 20.04.
+I have recorded the problems I encountered when set this up on Ubuntu 20.04. (For Ubuntu 20.04, I used [distrobox](https://github.com/89luca89/distrobox) so that I won't disturb my original system.)
 
-
-* Aubo_robot [ROS](http://www.ros.org/) meta-package for [ROS-Industrial](http://wiki.ros.org/Industrial). See the [ROS wiki](http://wiki.ros.org/)  page for more information.
-
-* This repository provides ROS support for [AUBO robots](https://aubo-robotics.com/en/). This repository holds source code for 'Noetic'. The corresponding robot controller software version is 'V4'. For those software version < 'V4', can refer to [here]( http://wiki.ros.org/aubo_robot).
+* This repository provides ROS support for [AUBO robots](https://aubo-robotics.com/en/).
+* This repository holds source code for 'Noetic'.
+* The corresponding robot controller software version is 'V4'. For those software version < 'V4', can refer to [here]( http://wiki.ros.org/aubo_robot).
 
 ### Installation from Source
 ---
@@ -26,10 +25,7 @@ _Note: when run this line, you probably will encounter a problem in Issure#3 in 
 
 ### Contents
 ----
-* The repository contains packages may be unstable, and they will be migrated to the [ROS-I](https://github.com/ros-industrial) repository after sufficient testing.<br>
-* The contents of these packages are subject to change, without prior notice.<br>
-* Any available APIs are to be considered unstable and are not guaranteed to be complete and / or functional.
-
+Whenever you start the system, remember to first source the setup.bash under /opt/ and then source the setup.bash under your catkin directory (if you have run catkin_make before, there will be a setup.bash under /devel/). 
 
 ### MoveIt! with a simulated robot
 ---
